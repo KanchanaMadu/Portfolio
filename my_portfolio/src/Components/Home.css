@@ -1,0 +1,62 @@
+.home-style{
+    background-color: #1E2A38;
+    text-align: center; /* Center-align content if desired */
+  }
+  
+  .button-style {
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+    padding: 5px;
+  }
+  
+  .hi-ani{
+    width: 100%; 
+    height: auto; 
+    max-width: 200px;
+    align-items: center; 
+    display: block;
+  }
+
+  .h1-style{
+    color: #F5F5DC;
+    font-size: 75px;
+  }
+  
+  .circular-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  /* Shining effect */
+  .shining-circle {
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    padding: 5px; /* Adjust padding to create space for the shine */
+    background: linear-gradient(45deg, #FFD700, #FFA500,#F5F5DC);
+    background-size: 400% 400%; /* Creates a large gradient that will move */
+    animation: shine 3s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow:#F5F5DC;
+  }
+  
+  /* Animation for the shining effect */
+  @keyframes shine {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
