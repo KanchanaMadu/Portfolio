@@ -1,0 +1,21 @@
+.custom-nav {
+    color: #EAEAEA;
+    background-color: #1E2A38;
+    font-size: 20px;
+  }
+
+  .custom-nav .custom-pill {
+    color: #EAEAEA; 
+  }
+  
+  .custom-nav .custom-pill:hover {
+    
+    color: #FFD700;
+  }
+  
+
+/*Modern and Elegant
+Primary Color: Deep Navy (#1E2A38)
+Secondary Color: Light Gray (#EAEAEA)
+Accent Color: Gold (#FFD700) or Orange (#FFA500)
+Highlight Color: Soft Cream (#F5F5DC) */
